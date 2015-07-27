@@ -7,11 +7,9 @@
 available with the [Karma](http://karma-runner.github.io/) test runner.
 
 ```js
-
 module.exports = function (config) {
     config.set({
         frameworks: ['leche']
     });
 };
-
 ```
