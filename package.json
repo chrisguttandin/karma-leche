@@ -14,6 +14,10 @@
   "license": "MIT",
   "main": "src/adapter.js",
   "name": "karma-leche",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisguttandin/karma-leche.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
