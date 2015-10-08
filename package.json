@@ -5,6 +5,7 @@
     "mocha": "^2.2.5"
   },
   "description": "A Karma adapter for Leche.",
+  "homepage": "https://github.com/chrisguttandin/karma-leche",
   "keywords": [
     "karma",
     "leche",
