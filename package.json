@@ -2,7 +2,7 @@
   "author": "Christoph Guttandin",
   "dependencies": {
     "leche": "^2.1.1",
-    "mocha": "^2.5.2"
+    "mocha": "^2.5.3"
   },
   "description": "A Karma adapter for Leche.",
   "homepage": "https://github.com/chrisguttandin/karma-leche",
