@@ -2,7 +2,7 @@
 
 var path = require('path');
 
-function initLeche(files) {
+function initLecheFramework(files) {
     var leche = path.join(path.dirname(path.resolve(require.resolve('leche'))), '../dist/leche.js');
 
     files.unshift({
@@ -13,8 +13,8 @@ function initLeche(files) {
     });
 };
 
-initLeche.$inject = ['config.files'];
+initLecheFramework.$inject = ['config.files'];
 
 module.exports = {
-  'framework:leche': ['factory', initLeche]
+  'framework:leche': ['factory', initLecheFramework]
 };
