@@ -35,7 +35,7 @@
     "url": "https://github.com/chrisguttandin/karma-leche.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt test"
   },
   "version": "0.0.6"
 }
