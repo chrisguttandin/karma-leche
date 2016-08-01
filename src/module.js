@@ -1,20 +1,14 @@
-'use strict';
+const path = require('path');
 
-var path = require('path');
+const LECHE = path.join(path.dirname(require.resolve('leche')), '../dist/leche.js');
 
-function initLecheFramework(files) {
-    var leche = path.join(path.dirname(path.resolve(require.resolve('leche'))), '../dist/leche.js');
+const initLecheFramework = (files) => files.unshift({
+    included: true,
+    pattern: LECHE,
+    served: true,
+    watched: false
+});
 
-    files.unshift({
-        included: true,
-        pattern: leche,
-        served: true,
-        watched: false
-    });
-};
+initLecheFramework.$inject = [ 'config.files' ];
 
-initLecheFramework.$inject = ['config.files'];
-
-module.exports = {
-  'framework:leche': ['factory', initLecheFramework]
-};
+module.exports = { 'framework:leche': [ 'factory', initLecheFramework ] };
