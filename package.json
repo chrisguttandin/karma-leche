@@ -8,6 +8,14 @@
     "mocha": "^2.5.3"
   },
   "description": "A Karma adapter for Leche.",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-mocha-test": "^0.12.7",
+    "load-grunt-config": "^0.19.2"
+  },
   "homepage": "https://github.com/chrisguttandin/karma-leche",
   "keywords": [
     "karma",
