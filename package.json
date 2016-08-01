@@ -16,7 +16,7 @@
     "sinon"
   ],
   "license": "MIT",
-  "main": "src/adapter.js",
+  "main": "src/module.js",
   "name": "karma-leche",
   "repository": {
     "type": "git",
