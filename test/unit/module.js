@@ -22,7 +22,7 @@ describe('karma-leche', () => {
                 included: true,
                 pattern: files[0].pattern,
                 served: true,
-                watched: false,
+                watched: false
             }, 'a fake file' ]);
         });
 
