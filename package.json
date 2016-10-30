@@ -15,9 +15,9 @@
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-githooks": "^0.6.0",
     "grunt-mocha-test": "^0.13.0",
     "gruntify-eslint": "^3.0.0",
+    "husky": "^0.11.9",
     "load-grunt-config": "^0.19.2"
   },
   "homepage": "https://github.com/chrisguttandin/karma-leche",
@@ -35,6 +35,7 @@
     "url": "https://github.com/chrisguttandin/karma-leche.git"
   },
   "scripts": {
+    "precommit": "grunt lint",
     "test": "grunt lint && grunt test"
   },
   "version": "0.0.8"
