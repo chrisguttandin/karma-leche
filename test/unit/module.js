@@ -1,18 +1,18 @@
-var lecheFramework = require('../../src/module.js'),
-    path = require('path');
+const lecheFramework = require('../../src/module.js');
+const path = require('path');
 
 describe('karma-leche', () => {
 
     describe('initLeche()', () => {
 
-        var initLecheFramework;
+        let initLecheFramework;
 
         beforeEach(() => {
             initLecheFramework = lecheFramework['framework:leche'][1];
         });
 
         it("should unshift leche's dist file", () => {
-            var files = [ 'a fake file' ];
+            const files = [ 'a fake file' ];
 
             initLecheFramework(files);
 
