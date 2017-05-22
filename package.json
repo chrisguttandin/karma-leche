@@ -28,6 +28,7 @@
   "homepage": "https://github.com/chrisguttandin/karma-leche",
   "keywords": [
     "karma",
+    "karma-plugin",
     "leche",
     "mocha",
     "sinon"
