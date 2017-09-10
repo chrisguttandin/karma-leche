@@ -5,7 +5,7 @@
   },
   "dependencies": {
     "leche": "^2.2.1",
-    "mocha": "^3.5.1"
+    "mocha": "^3.5.2"
   },
   "description": "A Karma adapter for Leche.",
   "devDependencies": {
