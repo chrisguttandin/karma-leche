@@ -4,8 +4,7 @@
     "url": "https://github.com/chrisguttandin/karma-leche/issues"
   },
   "dependencies": {
-    "leche": "^2.2.1",
-    "mocha": "^3.5.3"
+    "leche": "^2.2.1"
   },
   "description": "A Karma adapter for Leche.",
   "devDependencies": {
@@ -19,7 +18,8 @@
     "grunt-mocha-test": "^0.13.0",
     "gruntify-eslint": "^4.0.0",
     "husky": "^0.14.3",
-    "load-grunt-config": "^0.19.2"
+    "load-grunt-config": "^0.19.2",
+    "mocha": "^3.5.3"
   },
   "engines": {
     "node": ">=6.11.2"
@@ -38,6 +38,9 @@
   "license": "MIT",
   "main": "src/module.js",
   "name": "karma-leche",
+  "peerDependencies": {
+    "mocha": ">=3.5.3"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/chrisguttandin/karma-leche.git"
