@@ -5,7 +5,8 @@
   },
   "dependencies": {
     "leche": "^2.2.1",
-    "mocha": "^3.5.3"
+    "mocha": "^3.5.3",
+    "snyk": "^1.41.1"
   },
   "description": "A Karma adapter for Leche.",
   "devDependencies": {
@@ -44,7 +45,10 @@
   },
   "scripts": {
     "precommit": "grunt lint",
-    "test": "grunt lint && grunt test"
+    "test": "grunt lint && grunt test",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
-  "version": "0.0.17"
+  "version": "0.0.17",
+  "snyk": true
 }
