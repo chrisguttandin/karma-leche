@@ -4,7 +4,7 @@
     "url": "https://github.com/chrisguttandin/karma-leche/issues"
   },
   "dependencies": {
-    "leche": "^2.2.2"
+    "leche": "^2.2.3"
   },
   "description": "A Karma adapter for Leche.",
   "devDependencies": {
