@@ -3,6 +3,11 @@
   "bugs": {
     "url": "https://github.com/chrisguttandin/karma-leche/issues"
   },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "dependencies": {
     "leche": "^2.2.3"
   },
