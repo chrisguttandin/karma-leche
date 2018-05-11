@@ -1,5 +1,7 @@
 # karma-leche
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/chrisguttandin/karma-leche.svg)](https://greenkeeper.io/)
+
 **A Karma adapter for Leche.**
 
 [![tests](https://img.shields.io/travis/chrisguttandin/karma-leche/master.svg?style=flat-square)](https://travis-ci.org/chrisguttandin/karma-leche)
