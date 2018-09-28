@@ -36,6 +36,11 @@
     "src/"
   ],
   "homepage": "https://github.com/chrisguttandin/karma-leche",
+  "husky": {
+    "hooks": {
+      "pre-commit": "grunt lint"
+    }
+  },
   "keywords": [
     "karma",
     "karma-plugin",
@@ -54,7 +59,6 @@
     "url": "https://github.com/chrisguttandin/karma-leche.git"
   },
   "scripts": {
-    "precommit": "grunt lint",
     "test": "grunt lint && grunt test"
   },
   "version": "1.0.4"
