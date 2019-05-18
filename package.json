@@ -9,7 +9,7 @@
     }
   },
   "dependencies": {
-    "leche": "^2.2.3"
+    "leche": "^2.3.0"
   },
   "description": "A Karma adapter for Leche.",
   "devDependencies": {
