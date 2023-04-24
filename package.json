@@ -13,7 +13,7 @@
     },
     "description": "A Karma adapter for Leche.",
     "devDependencies": {
-        "@commitlint/cli": "^16.2.3",
+        "@commitlint/cli": "^17.6.1",
         "@commitlint/config-angular": "^16.2.3",
         "chai": "^4.3.6",
         "commitizen": "^4.2.6",
