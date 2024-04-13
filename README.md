@@ -1,3 +1,7 @@
+# Status: **!!! DEPRECATED !!!**
+
+This module is deprecated and no longer maintained.
+
 # karma-leche
 
 **A Karma adapter for Leche.**
