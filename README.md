@@ -4,7 +4,7 @@ This module is deprecated and no longer maintained.
 
 # karma-leche
 
-**A Karma adapter for Leche.**
+**!!! DEPRECATED !!! A Karma adapter for Leche.**
 
 [Leche](https://github.com/box/leche) is a testing utility which extends
 [Mocha](http://mochajs.org/) and [Sinon](http://sinonjs.org/). This little adapter makes it

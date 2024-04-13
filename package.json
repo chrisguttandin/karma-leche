@@ -11,7 +11,7 @@
     "dependencies": {
         "leche": "^2.3.0"
     },
-    "description": "A Karma adapter for Leche.",
+    "description": "!!! DEPRECATED !!! A Karma adapter for Leche.",
     "devDependencies": {
         "@commitlint/cli": "^17.6.1",
         "@commitlint/config-angular": "^17.6.1",
